@@ -1,0 +1,159 @@
+body{
+
+    background:#07403A;
+}
+
+.name {
+    width: 100%;
+    height: 300px;
+    background-color:#BFBFBF;
+    transform: skewY(-5deg);
+}
+
+.name .titu {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left:25%;
+    transform: skewY(5deg);
+}
+
+.name .titu .p1{
+    color :black;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight:bolder;
+    font-size: 65px;
+}
+
+.pers{
+    width: 90%;
+    height: auto;
+    background-color:#185953;
+    margin:5% auto;
+    padding: 20px;
+
+}
+
+.p2{
+    color:black;
+    font-family:'Noto Sans Mono', monospace ;
+    font-size: xx-large;
+    text-align: center;
+    font-weight:bolder;
+    border-bottom: 2px black dashed;
+}
+
+.infopers{
+    color:black;
+    font-family:'Noto Sans Mono', monospace;
+    font-weight: bolder;
+    font-size:large;
+    display: inline;
+    justify-content: flex-end;
+    
+}
+
+input{
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+}
+
+#nombre,.nombre{
+    position: relative;
+    top: auto;
+    right: -150px;
+}
+
+#apellidos,.apellidos{
+    position: relative;
+    top: auto;
+    right: -550px;
+}
+
+#edad,.edad{
+    position: relative;
+    top: auto;
+    right: -170px;
+}
+
+#sexo,.sexo{
+    position: relative;
+    top: auto;
+    right: -625px;
+}
+
+#correo,.correo{
+    position: relative;
+    top: auto;
+    right: -145px;
+}
+
+#id,.id{
+    position: relative;
+    top: auto;
+    right: -625px;
+}
+
+#contrato,.contrato{
+    position: relative;
+    top: auto;
+    right: -45px;
+}
+
+#dependencia,.dependencia{
+    position: relative;
+    top: auto;
+    right: -150px;
+}
+
+
+#cargo,.cargo{
+    position: relative;
+    top: auto;
+    right: -300px;
+}
+
+
+#usuario,.usuario{
+    position: relative;
+    top: auto;
+    right: -300px;
+}
+
+#salario,.salario{
+    position: relative;
+    top: auto;
+    right: -470px;
+}
+
+#fingreso,.fingreso{
+    position: relative;
+    top: auto;
+    right: -300px;
+}
+
+#fsalida,.fsalida{
+    position: relative;
+    top: auto;
+    right: -350px;
+}
+
+#rt,.rt{
+    position: relative;
+    top: auto;
+    right: -350px;
+    padding:30px;
+}
+
+#puntuacion,.puntuacion{
+    position: relative;
+    top: auto;
+    right: -550px;
+}
+
+
+
+
